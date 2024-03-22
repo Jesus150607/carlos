@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: animateBox 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes animateBox {
+    0% {
+      transform: translateY(0);
+    }
+    90% {
+      transform: translateY(100px);
+    }
+    10%{
+      transform: translateX(100px);
+    }
+  }
